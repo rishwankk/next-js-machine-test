@@ -1,8 +1,8 @@
 "use client"
-import { SECOND_IMAGE } from '@/app/constants/imageLinks';
 import React from 'react';
 import { FaPlay } from 'react-icons/fa'; 
 import Button from './Button'; 
+import { SECOND_IMAGE } from '../app/constants/imageLinks';
 
 const VideoSection = () => {
   const handlePlayClick = () => {

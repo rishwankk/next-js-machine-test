@@ -1,5 +1,6 @@
-import { IMAGE_1, IMAGE_2, IMAGE_3, IMAGE_4 } from '@/app/constants/imageLinks';
+
 import React from 'react';
+import { IMAGE_1, IMAGE_2, IMAGE_3, IMAGE_4 } from '../app/constants/imageLinks';
 
 const ImageGrid = () => {
   const images = [

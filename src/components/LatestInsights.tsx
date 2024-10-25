@@ -1,6 +1,6 @@
 "use client";
-import { IMAGE_1, IMAGE_2, IMAGE_3, IMAGE_4 } from '@/app/constants/imageLinks';
 import React, { useState } from 'react';
+import { IMAGE_1, IMAGE_2, IMAGE_3 } from '../app/constants/imageLinks';
 
 const LatestInsights = () => {
   const insights = [

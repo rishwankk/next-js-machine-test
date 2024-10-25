@@ -2,8 +2,9 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { HiMenuAlt3 } from 'react-icons/hi'; 
-import { navLinks } from '@/app/constants/Links';
+
 import Button from './Button';
+import { navLinks } from '../app/constants/Links';
 
 
 export default function Header() {

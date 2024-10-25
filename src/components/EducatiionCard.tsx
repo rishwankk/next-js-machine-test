@@ -1,5 +1,6 @@
-import { IMAGE_3 } from '@/app/constants/imageLinks';
+
 import Image from 'next/image';
+import { IMAGE_3 } from '../app/constants/imageLinks';
 
 const EducationHighlight = () => {
   return (

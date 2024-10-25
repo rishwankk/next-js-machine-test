@@ -1,6 +1,7 @@
-import { HEADING, SUBHEADING } from "@/app/constants/Dummy";
-import { MAIN_IMAGE } from "@/app/constants/imageLinks";
+
 import React from "react";
+import { HEADING, SUBHEADING } from "../app/constants/Dummy";
+import { MAIN_IMAGE } from "../app/constants/imageLinks";
 
 const Top = () => {
   return (
