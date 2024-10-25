@@ -1,7 +1,7 @@
 "use client";
 import { useState } from 'react';
 import Link from 'next/link';
-import { HiMenuAlt3 } from 'react-icons/hi'; // For menu icon
+import { HiMenuAlt3 } from 'react-icons/hi'; 
 import { navLinks } from '@/app/constants/Links';
 import Button from './Button';
 
@@ -17,7 +17,6 @@ export default function Header() {
           Logo
         </Link>
 
-        {/* Centered Menu Links */}
         <nav className="hidden md:flex flex-grow justify-center space-x-8 items-center">
           {navLinks.map((nav) => (
             <Link key={nav.href} href={nav.href} className="text-white hover:text-gray-600">
@@ -26,14 +25,14 @@ export default function Header() {
           ))}
         </nav>
 
-        {/* Contact Us Button on the right */}
+      
         <Button
           href="/contact-us" 
           text="Contact Us" 
           className="hidden md:block bg-white text-black border border-white hover:bg-gray-700 hover:text-gray-800" 
         />
 
-        {/* Mobile Menu Icon */}
+       
         <button
           className="md:hidden text-3xl text-white"
           onClick={() => setIsOpen(!isOpen)}
@@ -42,7 +41,7 @@ export default function Header() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+      
       {isOpen && (
         <nav className="md:hidden bg-white shadow-md">
           <ul className="flex flex-col items-center py-4 space-y-4">
